@@ -12,3 +12,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+body{
+  margin: 0px;
+  padding: 0px;
+  background:tan;
+}
+.card-container{
+  width: 300px;
+  height: 450px;
+  background: brouwn;
+  border-radius: 5px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  box-shadow:  0px 1px 10px 1px #000;
+}
+.upper-container{
+    height: 150px;
+    background: skyblue;
+}
+
+.Home{
+    background: cornsilk;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+}
+.lower-container{
+        height:280px;
+        padding: 20px;
+        padding-top: 40px;
+        background:orange;
+        text-align: center;
+    }
+
